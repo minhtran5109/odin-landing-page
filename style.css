@@ -18,7 +18,7 @@ body {
 
 .header {
   justify-content: space-between;
-  padding: 18px 64px;
+  padding: 18px 10vw;
 }
 
 .logo{
@@ -45,7 +45,7 @@ a {
 
 .top {
   justify-content: space-between;
-  padding: 64px;
+  padding: 128px 10vw;
   gap: 24px;
 }
 
@@ -55,11 +55,23 @@ a {
 }
 
 .hero-image {
-  width: 500px;
-  height: auto;
+  height: 300px;
+  width: auto;
 }
 
 .subtext {
   margin-top:8px;
   margin-bottom: 16px;
+}
+
+button, .call {
+  background-color: #3882F6;
+}
+
+button {
+  color: #F9FAF8;
+  font-weight: bold;
+  border: none;
+  padding: 8px 24px;
+  border-radius: 6px;
 }
