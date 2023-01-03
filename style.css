@@ -46,8 +46,20 @@ a {
 .top {
   justify-content: space-between;
   padding: 64px;
+  gap: 24px;
 }
+
 .hero-main {
   font-size: 48px;
   font-weight: bolder;
+}
+
+.hero-image {
+  width: 500px;
+  height: auto;
+}
+
+.subtext {
+  margin-top:8px;
+  margin-bottom: 16px;
 }
